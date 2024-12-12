@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://dwet3uygxw2dh"]
+
+[ext_resource type="Script" path="res://day3/part_1.gd" id="1_sjrlh"]
+[ext_resource type="Script" path="res://day3/part_2.gd" id="2_mo4po"]
+
+[node name="Day3" type="Node2D"]
+
+[node name="part1" type="Node2D" parent="."]
+script = ExtResource("1_sjrlh")
+
+[node name="part2" type="Node2D" parent="."]
+script = ExtResource("2_mo4po")
